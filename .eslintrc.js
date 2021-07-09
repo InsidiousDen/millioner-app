@@ -1,0 +1,48 @@
+module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    es2020: true,
+    jest: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  plugins: ['react'],
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:react/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
+  rules: {
+    quotes: ['error', 'single'],
+    'max-len': ['warn', { code: 80 }],
+    'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
+    'react/react-in-jsx-scope': 'off',
+    'import/extensions': 'off',
+    'react/prop-types': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/no-unescaped-entities': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'import/no-cycle': [0, { ignoreExternal: true }],
+    'import/no-unresolved': 'off',
+    'import/no-named-as-default': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'prettier/prettier': [
+      'error',
+      { singleQuote: true, semi: false, endOfLine: 'auto' },
+    ],
+    'jsx-a11y/control-has-associated-label': 'off',
+  },
+}

@@ -1,0 +1,276 @@
+[{
+    "question":"Какая страна первой запустила спутник?",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"СССР"
+        },
+        {
+            "label":"B",
+            "answer":"Америка"
+        },
+        {
+            "label":"C",
+            "answer":"Китай"
+        },
+        {
+            "label":"D",
+            "answer":"Украина"
+        }
+    ],
+    "correct":["A"],
+    "reward": "$500"
+},
+{
+    "question":"Из чего состоит комета? ",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"Горячий, жидкий камень"
+        },
+        {
+            "label":"B",
+            "answer":"Ядовитая жидкость"
+        },
+        {
+            "label":"C",
+            "answer":"Грязный лед и пыль"
+        },
+        {
+            "label":"D",
+            "answer":"Ржавый метал"
+        }
+    ],
+    "correct":["C"],
+    "reward": "$1,000"
+},
+{
+    "question":"Из чего в основном состоит солнце?",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"Плавленое железо"
+        },
+        {
+            "label":"B",
+            "answer":"Жидкая лава"
+        },
+        {
+            "label":"C",
+            "answer":"Камень"
+        },
+        {
+            "label":"D",
+            "answer":"Газ"
+        }
+    ],
+    "correct":["D"],
+    "reward": "$2,000"
+},
+{
+    "question":"Сколько лун у Марса?",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"4"
+        },
+        {
+            "label":"B",
+            "answer":"1"
+        },
+        {
+            "label":"C",
+            "answer":"2"
+        },
+        {
+            "label":"D",
+            "answer":"6"
+        }
+    ],
+    "correct":["C"],
+    "reward": "$4,000"
+},
+{
+    "question":"5",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"sascx"
+        },
+        {
+            "label":"B",
+            "answer":"asasc"
+        },
+        {
+            "label":"C",
+            "answer":"ascasca"
+        },
+        {
+            "label":"D",
+            "answer":"ascasc"
+        }
+    ],
+    "correct":["B"],
+    "reward": "$8,000"
+},
+{
+    "question":"6",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"sadasd"
+        },
+        {
+            "label":"B",
+            "answer":"asfasf"
+        },
+        {
+            "label":"C",
+            "answer":"asdasd"
+        },
+        {
+            "label":"D",
+            "answer":"asdasd"
+        }
+    ],
+    "correct":["C", "D"],
+    "reward": "$16,000"
+},
+{
+    "question":"7",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"asdasd"
+        },
+        {
+            "label":"B",
+            "answer":"ssadaser"
+        },
+        {
+            "label":"C",
+            "answer":"asdsadr"
+        },
+        {
+            "label":"D",
+            "answer":"asdsad"
+        }
+    ],
+    "correct":["D"],
+    "reward": "$32,000"
+},
+{
+    "question":"8",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"asvasva"
+        },
+        {
+            "label":"B",
+            "answer":"savse"
+        },
+        {
+            "label":"C",
+            "answer":"dsavss"
+        },
+        {
+            "label":"D",
+            "answer":"asvas"
+        }
+    ],
+    "correct":["A"],
+    "reward": "$64,000"
+},
+{
+    "question":"9",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"coasdadsadsow"
+        },
+        {
+            "label":"B",
+            "answer":"rasdasda"
+        },
+        {
+            "label":"C",
+            "answer":"pasdsadot"
+        },
+        {
+            "label":"D",
+            "answer":"gasgasgaes"
+        }
+    ],
+    "correct":["B"],
+    "reward": "$125,000"
+},
+{
+    "question":"10",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"basfasfsat"
+        },
+        {
+            "label":"B",
+            "answer":"asffasd"
+        },
+        {
+            "label":"C",
+            "answer":"basfafsae"
+        },
+        {
+            "label":"D",
+            "answer":"asfasft"
+        }
+    ],
+    "correct":["C"],
+    "reward": "$250,000"
+},
+{
+    "question":"11",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"asfasft"
+        },
+        {
+            "label":"B",
+            "answer":"asfasf"
+        },
+        {
+            "label":"C",
+            "answer":"asfasf"
+        },
+        {
+            "label":"D",
+            "answer":"asfasfs"
+        }
+    ],
+    "correct":["A"],
+    "reward": "$500,000"
+},
+{
+    "question":"12",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"Wawddsa"
+        },
+        {
+            "label":"B",
+            "answer":"awdawd"
+        },
+        {
+            "label":"C",
+            "answer":"aawdawd"
+        },
+        {
+            "label":"D",
+            "answer":"awdassd"
+        }
+    ],
+    "correct":["B", "D"],
+    "reward": "$1,000,000"
+}]

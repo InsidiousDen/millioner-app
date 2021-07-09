@@ -1,0 +1,79 @@
+@import "/src/styles/mixins";
+
+.root {
+  display: flex;
+  height: 100vh;
+  background-color: var(--grey);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  @include tablet {
+    padding: 0 50px;
+  }
+  @include desktop {
+    align-items: flex-start;
+  }
+
+}
+
+.title {
+  width: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 50px;
+  text-align: center;
+
+  @include tablet {
+    font-size: 24px;
+    text-align: left;
+  }
+  @include desktop {
+    font-size: 28px;
+    padding-left: 5%;
+  }
+  @include large {
+    font-size: 32px;
+  }
+  @include xlarge {
+    font-size: 3rem;
+    padding-left: 10%;
+
+  }
+}
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include xlarge {
+    padding-left: 5%;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+  transition: all 0.5s;
+  @include desktop {
+    transform: translateX(0);
+    position: relative;
+    width: 376px;
+    background-color: var(--white);
+  }
+  @include xlarge {
+    width: 30%;
+  }
+}
+.sidebar.active {
+  display: block;
+  z-index: 1;
+  transform: translateX(0);
+  background-color: var(--white);
+}
+

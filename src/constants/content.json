@@ -1,0 +1,9 @@
+{
+  "title" : "Who wants to be a millionaire?", 
+  "score" : "Total score",
+  "game" : {
+    "try" : "Try again",
+    "start": "Start"
+  },
+  "result" : "earned"
+}

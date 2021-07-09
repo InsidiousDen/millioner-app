@@ -1,0 +1,101 @@
+@import "/src/styles/mixins";
+
+.root {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  fill: var(--white);
+  stroke: var(--black-40);
+  position: relative;
+
+  :hover {
+    stroke: var(--orange-100);
+  }
+
+  @include desktop {
+    width: 45%;
+    font-size: 16px;
+  }
+  @include large {
+    font-size: 20px;
+  }
+  @include xlarge {
+    font-size: 32px;
+  }
+
+  &--selected {
+    stroke: var(--orange-100);
+    fill: var(--orange-5);
+    &:hover {
+      stroke: var(--orange-100);
+      fill: var(--orange-5);
+    }
+  }
+
+  &--correct {
+    stroke: var(--green-100);
+    fill: var(--green-5);
+    &:hover {
+      stroke: var(--green-100);
+      fill: var(--green-5);
+    }
+  }
+
+  &--wrong {
+    stroke: var(--red-100);
+    fill: var(--red-5);
+  }
+}
+
+.hex {
+  width: 320px;
+  height: 56px;
+  @include desktop {
+    width: 450px;
+    height: auto;
+  }
+  @include large {
+    width: 510px;
+  }
+  @include xlarge {
+    width: 800px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  position: absolute;
+  left: 50px;
+  width: 200px;
+
+  @include large {
+    width: 300px;
+    left: 100px;
+  }
+  @include xlarge {
+    width: 500px;
+  }
+}
+
+.label {
+  color: var(--orange-100);
+}
+
+.text {
+  text-align: left;
+  padding-left: 8px;
+  word-break: break-all;
+  @include desktop {
+    padding-left: 20px;
+  }
+  ::first-letter {
+    text-transform: uppercase;
+  }
+}

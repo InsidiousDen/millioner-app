@@ -1,0 +1,47 @@
+@import "/src/styles/mixins";
+
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+  margin: 0 auto;
+  fill: var(--white);
+  stroke: var(--black-40);
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  @include xlarge {
+    width: 100%;
+  }
+
+  &--current {
+    color: var(--orange-100);
+    stroke: var(--orange-100);
+  }
+
+  &--previous {
+    color: var(--grey);
+  }
+}
+
+.hex {
+  width: 320px;
+  height: auto;
+
+  @include xlarge {
+    width: 100%;
+  }
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
