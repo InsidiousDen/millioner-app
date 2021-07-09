@@ -2,11 +2,12 @@ import React from 'react'
 
 import data from '../../constants/content'
 import styles from './Home.module.scss'
+import likeImage from '../../assets/images/like.png'
 
 const Home = ({ isGameFinished, setGameStarted, reward }) => {
   return (
     <section className={styles.root}>
-      <img src="/images/like.png" alt="like" className={styles.image} />
+      <img src={likeImage} alt="like" className={styles.image} />
 
       <div className={styles.content}>
         {isGameFinished ? (
