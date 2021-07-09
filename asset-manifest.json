@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/InsidiousDen/millioner-app/static/css/main.752c3965.chunk.css",
-    "main.js": "/InsidiousDen/millioner-app/static/js/main.58837bb3.chunk.js",
-    "main.js.map": "/InsidiousDen/millioner-app/static/js/main.58837bb3.chunk.js.map",
-    "runtime-main.js": "/InsidiousDen/millioner-app/static/js/runtime-main.c879233e.js",
-    "runtime-main.js.map": "/InsidiousDen/millioner-app/static/js/runtime-main.c879233e.js.map",
-    "static/js/2.1ef13635.chunk.js": "/InsidiousDen/millioner-app/static/js/2.1ef13635.chunk.js",
-    "static/js/2.1ef13635.chunk.js.map": "/InsidiousDen/millioner-app/static/js/2.1ef13635.chunk.js.map",
-    "index.html": "/InsidiousDen/millioner-app/index.html",
-    "static/css/main.752c3965.chunk.css.map": "/InsidiousDen/millioner-app/static/css/main.752c3965.chunk.css.map",
-    "static/js/2.1ef13635.chunk.js.LICENSE.txt": "/InsidiousDen/millioner-app/static/js/2.1ef13635.chunk.js.LICENSE.txt"
+    "main.css": "/millioner-app/static/css/main.752c3965.chunk.css",
+    "main.js": "/millioner-app/static/js/main.58837bb3.chunk.js",
+    "main.js.map": "/millioner-app/static/js/main.58837bb3.chunk.js.map",
+    "runtime-main.js": "/millioner-app/static/js/runtime-main.22859f1a.js",
+    "runtime-main.js.map": "/millioner-app/static/js/runtime-main.22859f1a.js.map",
+    "static/js/2.1ef13635.chunk.js": "/millioner-app/static/js/2.1ef13635.chunk.js",
+    "static/js/2.1ef13635.chunk.js.map": "/millioner-app/static/js/2.1ef13635.chunk.js.map",
+    "index.html": "/millioner-app/index.html",
+    "static/css/main.752c3965.chunk.css.map": "/millioner-app/static/css/main.752c3965.chunk.css.map",
+    "static/js/2.1ef13635.chunk.js.LICENSE.txt": "/millioner-app/static/js/2.1ef13635.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c879233e.js",
+    "static/js/runtime-main.22859f1a.js",
     "static/js/2.1ef13635.chunk.js",
     "static/css/main.752c3965.chunk.css",
     "static/js/main.58837bb3.chunk.js"
