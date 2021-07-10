@@ -1,74 +1,74 @@
 [{
-    "question":"Какая страна первой запустила спутник?",
+    "question":"Which country launched the first satellite?",
     "answers":[
         {
             "label":"A",
-            "answer":"СССР"
+            "answer":"USSR"
         },
         {
             "label":"B",
-            "answer":"Америка"
+            "answer":"USA"
         },
         {
             "label":"C",
-            "answer":"Китай"
+            "answer":"China"
         },
         {
             "label":"D",
-            "answer":"Украина"
+            "answer":"Ukraine"
         }
     ],
     "correct":["A"],
     "reward": "$500"
 },
 {
-    "question":"Из чего состоит комета? ",
+    "question":"What is a comet made of? ",
     "answers":[
         {
             "label":"A",
-            "answer":"Горячий, жидкий камень"
+            "answer":"Hot, liquid stone"
         },
         {
             "label":"B",
-            "answer":"Ядовитая жидкость"
+            "answer":"Poisonous liquid"
         },
         {
             "label":"C",
-            "answer":"Грязный лед и пыль"
+            "answer":"Ice and dust"
         },
         {
             "label":"D",
-            "answer":"Ржавый метал"
+            "answer":"Rusty metal"
         }
     ],
     "correct":["C"],
     "reward": "$1,000"
 },
 {
-    "question":"Из чего в основном состоит солнце?",
+    "question":"What is the sun mainly made of?",
     "answers":[
         {
             "label":"A",
-            "answer":"Плавленое железо"
+            "answer":"Fused iron"
         },
         {
             "label":"B",
-            "answer":"Жидкая лава"
+            "answer":"Liquid lava"
         },
         {
             "label":"C",
-            "answer":"Камень"
+            "answer":"Stone"
         },
         {
             "label":"D",
-            "answer":"Газ"
+            "answer":"Gas"
         }
     ],
     "correct":["D"],
     "reward": "$2,000"
 },
 {
-    "question":"Сколько лун у Марса?",
+    "question":"How many moons does Mars have?",
     "answers":[
         {
             "label":"A",
@@ -91,186 +91,186 @@
     "reward": "$4,000"
 },
 {
-    "question":"5",
+    "question":"How many planets are there in our solar system?",
     "answers":[
         {
             "label":"A",
-            "answer":"sascx"
+            "answer":"Eight"
         },
         {
             "label":"B",
-            "answer":"asasc"
+            "answer":"Nine"
         },
         {
             "label":"C",
-            "answer":"ascasca"
+            "answer":"Ten"
         },
         {
             "label":"D",
-            "answer":"ascasc"
+            "answer":"Eleven"
         }
     ],
-    "correct":["B"],
+    "correct":["A"],
     "reward": "$8,000"
 },
 {
-    "question":"6",
+    "question":"Which statement describes the atmosphere of the planet correctly?",
     "answers":[
         {
             "label":"A",
-            "answer":"sadasd"
+            "answer":"Venus is mostly carbon dioxid"
         },
         {
             "label":"B",
-            "answer":"asfasf"
+            "answer":"Mercury is mostly nitrogen"
         },
         {
             "label":"C",
-            "answer":"asdasd"
+            "answer":"Earth is mostly oxygen"
         },
         {
             "label":"D",
-            "answer":"asdasd"
+            "answer":"Saturn is mostly helium"
         }
     ],
-    "correct":["C", "D"],
+    "correct":["A"],
     "reward": "$16,000"
 },
 {
-    "question":"7",
+    "question":"Which is the largest moon in the solar system?",
     "answers":[
         {
             "label":"A",
-            "answer":"asdasd"
+            "answer":"Halley"
         },
         {
             "label":"B",
-            "answer":"ssadaser"
+            "answer":"Titan"
         },
         {
             "label":"C",
-            "answer":"asdsadr"
+            "answer":"Moon"
         },
         {
             "label":"D",
-            "answer":"asdsad"
+            "answer":"Ganymede"
         }
     ],
     "correct":["D"],
     "reward": "$32,000"
 },
 {
-    "question":"8",
+    "question":"How long does it take for light from the Sun to reach Earth?",
     "answers":[
         {
             "label":"A",
-            "answer":"asvasva"
+            "answer":" 1 minute"
         },
         {
             "label":"B",
-            "answer":"savse"
+            "answer":"8 minutes"
         },
         {
             "label":"C",
-            "answer":"dsavss"
+            "answer":"Instantaneous"
         },
         {
             "label":"D",
-            "answer":"asvas"
-        }
-    ],
-    "correct":["A"],
-    "reward": "$64,000"
-},
-{
-    "question":"9",
-    "answers":[
-        {
-            "label":"A",
-            "answer":"coasdadsadsow"
-        },
-        {
-            "label":"B",
-            "answer":"rasdasda"
-        },
-        {
-            "label":"C",
-            "answer":"pasdsadot"
-        },
-        {
-            "label":"D",
-            "answer":"gasgasgaes"
+            "answer":"24 hours"
         }
     ],
     "correct":["B"],
-    "reward": "$125,000"
+    "reward": "$64,000"
 },
 {
-    "question":"10",
+    "question":"It takes the Sun 225-250 million years to do one revolution of the Milky Way Galaxy. How fast does the Sun travel?",
     "answers":[
         {
             "label":"A",
-            "answer":"basfasfsat"
+            "answer":"220km in a year"
         },
         {
             "label":"B",
-            "answer":"asffasd"
+            "answer":"220km in an minute"
         },
         {
             "label":"C",
-            "answer":"basfafsae"
+            "answer":"220 km in a hour"
         },
         {
             "label":"D",
-            "answer":"asfasft"
+            "answer":"220km in a second"
+        }
+    ],
+    "correct":["D"],
+    "reward": "$125,000"
+},
+{
+    "question":"How old is the solar system?",
+    "answers":[
+        {
+            "label":"A",
+            "answer":"5000 years"
+        },
+        {
+            "label":"B",
+            "answer":"5 million years"
+        },
+        {
+            "label":"C",
+            "answer":"5 billion years"
+        },
+        {
+            "label":"D",
+            "answer":"500 billion years"
         }
     ],
     "correct":["C"],
     "reward": "$250,000"
 },
 {
-    "question":"11",
+    "question":"Which planet is closest to the sun?",
     "answers":[
         {
             "label":"A",
-            "answer":"asfasft"
+            "answer":"Mercury"
         },
         {
             "label":"B",
-            "answer":"asfasf"
+            "answer":"Venera"
         },
         {
             "label":"C",
-            "answer":"asfasf"
+            "answer":"Earth"
         },
         {
             "label":"D",
-            "answer":"asfasfs"
+            "answer":"Mars"
         }
     ],
     "correct":["A"],
     "reward": "$500,000"
 },
 {
-    "question":"12",
+    "question":"Who was the first man in space?",
     "answers":[
         {
             "label":"A",
-            "answer":"Wawddsa"
+            "answer":"Ilon Mask"
         },
         {
             "label":"B",
-            "answer":"awdawd"
+            "answer":"Yuri Gagarin"
         },
         {
             "label":"C",
-            "answer":"aawdawd"
+            "answer":"Belka"
         },
         {
             "label":"D",
-            "answer":"awdassd"
+            "answer":"Strelka"
         }
     ],
-    "correct":["B", "D"],
+    "correct":["B"],
     "reward": "$1,000,000"
 }]
