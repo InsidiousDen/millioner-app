@@ -24,7 +24,7 @@ const Home = ({ isGameFinished, setGameStarted, reward }) => {
           className={styles.button}
           onClick={() => setGameStarted(true)}
         >
-          {isGameFinished ? `${data.game.start}` : `${data.game.try}`}
+          {isGameFinished ? `${data.game.try}` : `${data.game.start}`}
         </button>
       </div>
     </section>
